@@ -113,23 +113,9 @@ benefit for small inputs.
 
 ## Code Quality Notes
 
-The original project is an educational codebase with some duplicated demo
-implementations and legacy, IDE-specific configuration. The following weak
-areas were corrected:
-
-- fixed negative and upper-bound checks in `SimpleArrayList`
-- fixed `set`, `remove`, `contains`, and `subList` edge cases
-- removed the instance-independent static `totalSize` counter
-- made sorting honor the actual current list size
-- restored interrupt status when parallel sorting catches `InterruptedException`
-- prevented zero-length and mid-point edge failures in parallel quicksort
-- replaced unchecked exception printing in the basic demo with explicit failure
-- replaced single-level parallel sorting with recursive ForkJoin tasks
-- made parallel merge sort and quicksort use bounded tasks for small partitions
-
-The implementation also contains intentionally simple and deprecated examples;
-they are useful for comparing approaches but should not be treated as one
-production-quality sorting API.
+This project is intended for teaching sorting algorithms and Landau notation
+(asymptotic complexity). The code is educational and is not intended for
+production use.
 
 ## License
 
