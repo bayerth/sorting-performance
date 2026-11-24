@@ -1,0 +1,22 @@
+# Java and build output
+*.class
+*.jar
+*.war
+*.ear
+/target/
+/out/
+/build/
+.gradle/
+
+# IDE and OS files
+.idea/*
+!.idea/.name
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
+
+# Local legacy examples
+/src/deprecated/
