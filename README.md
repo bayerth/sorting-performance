@@ -2,7 +2,7 @@
 
 A Java project that compares list, array, merge-sort, quicksort, and parallel
 sorting implementations. It includes JUnit-style exercises, performance demos,
-and a Swing GUI module.
+and a Swing GUI module. Developed with support from GitHub Copilot.
 
 ## Modules
 
